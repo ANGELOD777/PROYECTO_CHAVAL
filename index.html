@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina de Practica</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px auto;
+            max-width: 800px;
+            line-height: 1.6;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a mi practica de HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Introducción</h2>
+            <p>Este es un párrafo de ejemplo. Las etiquetas <strong>HTML</strong> te permiten estructurar el texto, agregar <a href="https://developer.mozilla.org/" target="_blank">enlaces</a> y mucho más.</p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <ul>
+                <li>Proyecto 1: Estructura básica</li>
+            </ul>
+            
+            <img src="https://via.placeholder.com/300x150" alt="Imagen de marcador de posición">
+        </section>
+
+        <section id="contacto">
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+
+</body>
+</html>
